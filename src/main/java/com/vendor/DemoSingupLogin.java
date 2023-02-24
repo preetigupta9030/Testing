@@ -13,8 +13,7 @@ public class DemoSingupLogin {
 	static String aToz = "abcdefghijklmnopqrstuvwxyz";
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver",
-				"C:/Users/Abhishek Gupta/Downloads/chromedriver_win32/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 
 		// Instantiate a ChromeDriver class.
 		WebDriver driver = new ChromeDriver();
